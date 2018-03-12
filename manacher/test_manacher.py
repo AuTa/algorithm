@@ -1,5 +1,5 @@
 import pytest
-from ..manacher import Manacher
+from manacher import Manacher
 
 @pytest.fixture()
 def babad():
