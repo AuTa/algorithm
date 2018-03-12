@@ -5,18 +5,11 @@ class Solution:
     """
     def getString(self, n):
         # Write your code here
-        res = ''
-        i = 0
-        def next_num():
-            # 依次返回 0、1
-            while True:
-                yield '0'
-                yield '1'
+        res = '0'
+        if n == 1:
+            return res
+        i = 1
         while i < n:
-            n_num = next_num()
-            new_res = next(n_num)
-            for x in res:
-                new_res += x + next(n_num)
-            res = new_res
+            res = res + '{r:0{l}b}'.format(l=len(res) + 1, r=int(res[::-1], 2) ^ ((1 << len(res)) - 1))
             i += 1
         return res
