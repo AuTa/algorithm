@@ -1,5 +1,5 @@
 import pytest
-from ..zigzag_conversion import ZigZagConversion
+from zigzag_conversion import ZigZagConversion
 
 def test_convert():
     zig_zag = ZigZagConversion()
