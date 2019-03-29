@@ -33,4 +33,4 @@ Could you solve it in linear time?
 ## TODO
 
 神奇的解法：  
-[ ] [O(n) solution in Java with two simple pass in the array](https://leetcode.com/problems/sliding-window-maximum/discuss/65881/O(n)-solution-in-Java-with-two-simple-pass-in-the-array)
+- [ ] [O(n) solution in Java with two simple pass in the array](https://leetcode.com/problems/sliding-window-maximum/discuss/65881/O(n)-solution-in-Java-with-two-simple-pass-in-the-array)
