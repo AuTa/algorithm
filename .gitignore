@@ -102,3 +102,8 @@ ENV/
 
 # vscode
 .vscode/
+
+
+# Added by cargo
+
+/target
